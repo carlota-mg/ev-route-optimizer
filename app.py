@@ -623,9 +623,3 @@ def plan_route():
 if __name__ == "__main__":
     print("\n  EV Route Optimiser – starting on http://localhost:5000\n")
     app.run(debug=True, port=5000)
-
-#__________________
-
-get_weather(lat, lon) -> dict
-
-weather_range_modifier(weather, bearing_deg) -> float
